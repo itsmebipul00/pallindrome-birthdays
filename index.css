@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+
+.container{
+    max-width: 570px;
+    margin: 0 auto;
+    padding: 0 2em;
+}
+
+.con-header{
+    background: palevioletred;
+}
+
+h1{
+    padding: 2em 0;
+    margin: 0;
+    color: aliceblue;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.con-main{
+    background: ghostwhite;
+}
+
+.main{
+     padding: 5em 0 ;
+     margin-top: 0;
+}
+
+.date{
+    padding: 2em;
+    border: 10px solid black;
+    margin-right: 4em;
+}
+
+.btn{
+    background: green;
+    color: white;
+    padding: 0.7em 2em;
+    font-size: 1.8em;
+    border: 10px solid black;
+}
+
+.btn:hover,
+.btn:focus{
+    background: burlywood;
+}
+
+
+.output{
+    font-weight: 700;
+}
+
+.connect-me{
+    margin-top: 3em;
+}
+.svg{
+    margin: 1em;
+    padding: 0.5em;
+}
+
+
+
+
+
+@media(max-width: 560px){
+    .date{
+        margin-left: 4em;
+    }
+    
+    .btn{
+        margin-top: 1em;
+    }
+}
